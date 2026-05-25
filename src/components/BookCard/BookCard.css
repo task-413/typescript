@@ -1,0 +1,53 @@
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin: 8px;
+  box-sizing: border-box;
+}
+
+.book-card__cover-wrapper {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  background: #f4f4f4;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.book-card__cover-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-card__placeholder {
+  font-size: 40px;
+  color: #aaa;
+}
+
+/* ✅ Требование: шрифт названия больше шрифта авторов */
+.book-card__title {
+  font-size: 1.1rem;   /* 17.6px */
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+  margin: 0 0 8px 0;
+  line-height: 1.3;
+}
+
+.book-card__authors {
+  font-size: 0.85rem;  /* 13.6px (меньше чем у названия) */
+  color: #555;
+  text-align: center;
+  margin: 0;
+  line-height: 1.4;
+}

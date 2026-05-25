@@ -1,0 +1,30 @@
+.app {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 24px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.app__title {
+  text-align: center;
+  color: #222;
+  margin-bottom: 24px;
+}
+
+.books-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.error { color: #d32f2f; }
